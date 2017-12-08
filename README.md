@@ -18,6 +18,7 @@ overrides -p
 
   >-h --help: print this text
 
+- BEFORE running make sure your most recent change is rendered (just run 'jekyll serve')
 - cd into the folder and call script in terminal to do your bidding
 
   ```bash
