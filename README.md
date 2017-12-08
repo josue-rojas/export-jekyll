@@ -22,7 +22,6 @@ overrides -p
 - cd into the folder and call script in terminal to do your bidding
 
   ```bash
-  python export.py -i /User
   # ALL THESE EXAMPLE EXPORT LOCALFILES THAT ARE REQUESTED BY THE HTML
 
   # this one exports about.html into exportfolder and adds permalink "/"
