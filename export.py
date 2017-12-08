@@ -3,7 +3,6 @@
 # add ability to change project_root folder
 # add ability to change render_sites
 # write usage()
-# copy this to another repo
 # might need to do same for css (some may have local files)
 # clean comments/ remove useless ones
 #
@@ -67,11 +66,7 @@ def addPermalink(permalink_route, export_html, new_permalink):
         newHTML.write(permalink_text + original)
 
 def usage():
-    # h help
-    # p is boolean to keep permalink
-    # link is new permalink
-    # ---- note link overrides permalink flag (always goes with new permalink)
-    print 'Usage:\n Ill write this later'
+    print 'Usage:\n-i --input:  path of page to be exported\n-o --output: path for exports\n-p --permalink: flag that tells to use and keep permalink\n-l --link: new permalink to use ie "/thislink", note: this overrides -p\n-h --help: print this text'
 
 def main():
     try:
