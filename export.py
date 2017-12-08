@@ -2,7 +2,6 @@
 # add ability to also copy _config file (for jekyll sake)
 # add ability to change project_root folder
 # add ability to change render_sites
-# write usage()
 # might need to do same for css (some may have local files)
 # clean comments/ remove useless ones
 #
